@@ -12,9 +12,9 @@ def turn(board)
   input = gets.strip
   index=input_to_index(input)
   if index == valid_move?
-
-     move
+     move(board,index)
   else
+    puts "try again"
   end
 end
 
