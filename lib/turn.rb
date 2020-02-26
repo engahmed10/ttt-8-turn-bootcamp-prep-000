@@ -19,9 +19,9 @@ def turn(board)
 end
 
 
-#def move(board,index)
+def move(board,index)
 
-#end
+end
 
 
 def input_to_index(user_input)
