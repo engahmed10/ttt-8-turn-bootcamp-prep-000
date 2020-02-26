@@ -20,7 +20,7 @@ end
 
 
 def move(board,index)
-  move(board, index, "O")
+  
 end
 
 
