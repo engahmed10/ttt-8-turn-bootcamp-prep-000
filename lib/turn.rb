@@ -12,12 +12,12 @@ def turn(board)
   input = gets.strip
   index=input_to_index(input)
   if index == valid_move?
-     
+
      board[index] =  input
   else
-    
+
   end
-  
+
 end
 
 def input_to_index(user_input)
