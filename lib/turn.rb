@@ -14,13 +14,13 @@ def turn(board)
   if index == valid_move?
      move(board,index)
   else
-    puts "try again"
+    turn(board)
   end
 end
 
 
-def move(board,index)
-    move(board,index)
+def move(board,index= 'X')
+
 end
 
 
