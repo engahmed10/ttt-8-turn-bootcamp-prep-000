@@ -19,11 +19,11 @@ def turn(board)
 end
 
 
-def move(board,index) 
+def move(board,index)
     move(board,index)
 end
 
-  
+
 def input_to_index(user_input)
    userinput=user_input.to_i
    userinput= userinput-1
