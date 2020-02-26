@@ -12,7 +12,7 @@ def turn(board)
   input = gets.strip
 end
 
-def input_to_index(user_input)  
+def input_to_index(user_input)
    user_input.to_i
    user_input-1
    if user_input =="invalid"
