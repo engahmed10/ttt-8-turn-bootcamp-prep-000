@@ -14,9 +14,9 @@ def turn(board)
 end
 
 def input_to_index(user_input)
-   user_input.to_i
-   user_input-1
-   if user_input == "invalid"
+   userinput=user_input.to_i
+   userinput= userinput-1
+   if userinput == "invalid"
      -1
    end
 end
