@@ -19,7 +19,7 @@ def turn(board)
 end
 
 
-def move(board,index= 'X')
+def move(board,index,'X')
 
 end
 
