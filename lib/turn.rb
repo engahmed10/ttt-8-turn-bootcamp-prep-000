@@ -11,12 +11,12 @@ def turn(board)
   puts "Please enter 1-9:"
   input = gets.strip
   index=input_to_index(input)
-  
+
   if index 
 end
 
 def input_to_index(user_input)
    userinput=user_input.to_i
    userinput= userinput-1
-  
+
 end
